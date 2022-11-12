@@ -1,0 +1,185 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 800;
+}
+
+p{
+  color: #8F8F8F;
+}
+
+
+/* HEADINGS */
+
+.big-heading{
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+
+/* CONTAINERS */
+
+.container-fluid{
+  padding: 7% 15%;
+}
+
+
+/* SECTIONS */
+.colored-section{
+    background-color: #FF4C68;
+    color: #FFFFFF;
+}
+
+.white-section{
+  background-color: #FFFFFF;
+}
+
+/******************** NAVIGATION BAR **************************/
+
+.navbar{
+  margin-bottom: 50px;
+}
+
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.nav-link{
+  margin: 20px;
+}
+
+/******************** TITLE SECTION **************************/
+
+#title .container-fluid{
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+.download-button{
+  margin: 50px 10px 10px 10px;
+}
+
+.title-image{
+  transform: rotate(25deg);
+  width: 60%;
+  position: absolute;
+  right: 25%;
+}
+
+.title-image-container{
+  position: relative;
+}
+
+@media (max-width: 1028px){
+
+  #title{
+    text-align: center;
+  }
+
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+/******************** FEATURES SECTION **************************/
+
+#features{
+  position: relative;
+}
+
+.features-box{
+  padding: 2%;
+}
+
+.feature-title{
+  font-size: 1.5rem;
+}
+
+.icon{
+  color: #EF8172;
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.icon:hover{
+  color: #FF4C68;
+}
+
+/******************** TESTIMONIALS SECTION **************************/
+
+#testimonials{
+  background-color: #EF8172;
+}
+
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/******************** PRESS SECTION **************************/
+
+#press{
+  background-color: #EF8172;
+  padding-bottom: 3%;
+}
+
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/******************** PRICING SECTION **************************/
+
+#pricing{
+  padding: 100px;
+}
+
+.card{
+  height: 377px;
+}
+
+.price-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column{
+  padding: 3% 2%;
+}
+
+.signup-buttons{
+  margin-top: 40px;
+}
+
+
+
+/******************** FOOTER SECTION **************************/
+
+.social-icons{
+  color: black;
+  margin: 20px;
+  bottom: 20px;
+  position: relative;
+}
+
+.social-icons:hover{
+  color: #FF4C68;
+}
