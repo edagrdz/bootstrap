@@ -83,14 +83,19 @@ p{
 
 @media (max-width: 1028px){
 
-  #title{
+  #title .container-fluid{
     text-align: center;
+  }
+
+  .download-button{
+    margin: 50px 10px 70px 10px;
   }
 
   .title-image{
     position: static;
     transform: rotate(0);
   }
+    
 }
 
 /******************** FEATURES SECTION **************************/
