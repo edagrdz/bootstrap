@@ -1,3 +1,2 @@
-# bootstrap
-Evaluación Final Bootstrap
-https://edagrdz.github.io/bootstrap/
+# Tindog project - Technologies used: HTML5, CSS3, Bootstrap 5
+https://edagrdz.github.io/tindog-project
